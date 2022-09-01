@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Elemento Form</title>
+</head>
+
+<body>
+    <!--Estrutura do elemento Form-->
+
+    <form method="post" action="gabrielabasse5@gmail.com">
+
+        <input required />
+        <input type="submit" required />
+
+        <!--Valor Checkbox do atributo type-->
+
+        <p>Escolha o estado que você quer morar</p>
+
+        <label for="cali">California</label>
+        <input id="cali" type="checkbox" />
+
+        <label for="tex">Texas</label>
+        <input id="tex" type="checkbox" />
+
+        <label for="ny">Nova Iorque</label>
+        <input id="ny" type="checkbox" />
+        <br>
+        <br>
+        <br>
+        <br>
+        <!--Valor radio do atributo type-->
+
+        <p>Selecione a vacina</p>
+
+        <label for"coro">Coronavac</label>
+        <input type="radio" id"cv" name="tipo">
+
+        <label for"astra">Astrazeneca</label>
+        <input type="radio" id"cv" name="tipo">
+
+        <label for"pfiz">Pfizer</label>
+        <input type="radio" id"cv" name="tipo">
+
+
+        <!--Elemento select , datalist e option-->
+
+        <label for="pão">Escolha o seu pão</label>
+        <select name="pao" id="pao">
+            <option value="for">Forma</option>
+            <option value="fra">Frances</option>
+            <option value="int">Integral</option>
+            <option value="bag">Baguete</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!--datalist-->
+        <label for="times">Times</label>
+        <input autocomplete="on" list="time" name="times" id="times">
+        <datalist id="time">
+
+            <option value="palmeiras">palmeiras</option>
+            <option value="portuguesa">portuguesa</option>
+            <option value="chapecoense">chapecoense</option>
+            <option value="coritiba">coritiba</option>
+
+        </datalist>
+
+    </form>
+
+</body>
+
+</html>
