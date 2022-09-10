@@ -1,0 +1,44 @@
+body {
+    background-color: beige;
+
+}
+
+h1 {
+    color: blue;
+    border: 2px solid grey;
+    text-align: center;
+}
+
+section .pipoca {
+    color: gray;
+    background-color: beige;
+    border: 2px solid greenyellow;
+}
+
+/*
+    color: cor da letra
+    backgroud: cor do fundo
+    border: borda
+*/
+
+/* 
+    para selecionar o atributo class adicione .
+    para selecionar o atributo ID adicione #
+*/
+
+#primeiro_nome{
+    background-color: crimson;
+    text-align: center;
+}
+
+#segundoNome{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+article h4{
+    text-align: center;
+    border: 2px solid cornflowerblue;
+    font-size: 26px;
+
+}
