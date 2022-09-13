@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet and Love</title>
+</head>
+<body>
+    <main>
+        <form method="post" action="gabrielabasse5@gmail.com">
+            <h2>Preencha seus dados</h2>
+            <input type="text" name="nome" placeholder="Nome" required>
+            <br>
+            <input type="number" name="CPF" placeholder="CPF" required>
+            <br>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <br>
+            
+            <h2>Você  indicaria nossa loja a um amigo ?</h2>
+            <label for="sim">Sim</label>
+            <input id="sim" type="radio" name="indicação" required>
+
+            <label for="não">Não</label>
+            <input id="não" type="radio" name="indicação" required>
+
+            <h2> O que mais agradou na loja ?</h2>
+            <label for="doces">Salgados</label>
+            <input type="checkbox" id="doces">
+            
+            <label for="ambiente">Ambiente</label>
+            <input type="checkbox" id="ambiente">
+
+            <label for="entrega">Doces</label>
+            <input type="checkbox" id="entrega">
+            
+            <label for="atendimento">Atendimento</label>
+            <input type="checkbox" id="atendimento">
+            
+            <label for="valores">Entrega</label>
+            <input type="checkbox" id="valores">
+            
+            <h2>Qual foi seu último pedido ?</h2>
+            <input autocomplete="on" list="pedido" name="produtos" id="produtos" required>
+            <datalist id="pedido">
+                <option value="pizza">pizza</option>
+                <option value="torta salgada">torta salgada</option>
+                <option value="beirute">beirute</option>
+                <option value="olho de sogra">olho de sogra</option>
+                <option value="torta doce">torta doce</option>
+                <option value="bomba de chocolate">bomba de chocolate</option>
+                <option value="coxinha de morango">coxinha de morango</option>
+                <option value="pão de alho">pão de alho</option>
+                <option value="salsicha assada">salsicha assada</option>
+                <option value="kibe">kibe</option>
+                <option value="empanado presunto e queijo">empanado presunto e queijo</option>
+            </datalist>
+            
+            <h2>Em qual de nossas lojas foi atendido ?</h2>
+            <select name="lojas" id="lojas" required>
+                <option value="san">Santana</option>
+                <option value="sé">Sé</option>
+                <option value="gru">Guarulhos</option>
+                <option value="são">São Joaquim</option>
+            </select>
+            <br>
+            <input type="submit" name="enviar"required>
+        </form>
+    </main>
+    
+</body>
+</html>
