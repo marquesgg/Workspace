@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body {
+    background-color: white;
+    color: #198564;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+p{
+    background-color: beige;
+    text-align: center;
+    font-size: 0.9em;
+    text-indent: 3em;
+}
+
+h1{
+    background-color: aliceblue;
+    color: green;
+    border-bottom: 2px solid black;
+    border-top: 2px double black;
+    border-left: 2px dotted black;
+    border-right: 2px dashed black;
+    text-align: center;
+    
+    /* inset, outset, double, groove, ridge, solid, dashed e
+    dotted */
+
+}
