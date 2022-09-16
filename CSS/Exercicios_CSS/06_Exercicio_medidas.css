@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #335233;
+    margin-left: 130px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#fff;
+    line-height: 2.5em;
+}
+
+#pipoca {
+    background-image: url('lightyear.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 89.8vh;
+    text-align: left;
+    padding: 3mm;
+}
+
+#word {
+    padding: 20px;
+    background: #fff;
+    color: #fff;
+    text-align: center;
+   }
+
+   #pipoca .doce {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #F8F8FF;
+    border:#F8F8FF 5px solid;
+    padding: 10px 1cm;
+    border-radius: 25%;
+    margin-top: 20px;
+    margin-left: 85px;
+   }
+
+   #pipoca .medida {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #F8F8FF;
+    border:#F8F8FF 5px solid;
+    padding: 10px 1cm;
+    border-radius: 25%;
+    margin-top: 20px;
+   }
+   
+   #word {
+    padding: 20px;
+    background: rgb(51, 82, 51);
+    color: #fff;
+    text-align: center;
+   }    
+a:hover{
+    background: black;
+}
