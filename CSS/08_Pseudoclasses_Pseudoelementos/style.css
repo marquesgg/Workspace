@@ -1,0 +1,47 @@
+p:first-child{
+    color:blue;
+}
+
+.myList li:first-child{
+    background-color: palegreen;
+}
+
+.myList li:nth-child(3){
+    background-color: blueviolet;
+}
+
+.myList li:last-child{
+    background-color: red;
+}
+
+a:hover{
+    background-color: black;
+}
+
+#paragrafo::before{
+    content: " Leia Isso - ";
+}
+
+#paragrafo2::after{
+    content: "- Leia Mais  ";
+}
+
+p::first-letter{
+    font-size: 200%;
+    color:brown
+
+}
+
+#first::first-line{
+    background-color:#009000;
+}
+
+p::selection{
+    color: white;
+    background-color: palevioletred;
+}
+
+h1::selection{
+    color: yellow;
+    background-color: aqua;
+}
