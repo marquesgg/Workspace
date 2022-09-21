@@ -6,14 +6,28 @@ body {
     color: #fff;
 }
 
-h2 {
+h1 {
     text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: rgb(116, 101, 19);
 }
 
 .col {
     float: left;
-    width: 30%;
+    width: 25%;
+    padding: 6px;
+    margin-left: 19%;
+    box-sizing:content-box;
+}
+
+.col1 {
+    float:left;
+    width: 20%;
     padding: 8px;
+    margin-left: 4.2%;
     box-sizing: border-box;
 }
 
@@ -26,24 +40,25 @@ h2 {
     padding: 0;
 }
 
+
 .price-box .header {
     background-color: #111;
-    color: #fff;
+    color:  rgb(116, 101, 19);
     font-size: 25px;
 }
 
-.price-box .header.header-green {
-    background: #4caf50;
+.price-box .header {
+    background: black;
 }
 
 .price-box li {
-    padding: 20px;
+    padding: 17px;
     border-bottom: 20px solid #eee;
     text-align: center;
 }
 
-.btn {
-    background-color: #4caf50;
+.bottom {
+    background-color: goldenrod;
     border: none;
     color: #fff;
     padding: 10px 15px;
@@ -53,7 +68,7 @@ h2 {
    }
 
    @media(max-width:768px) {
-    .col {
+    .col .col1 {
     width: 100%;
     }
 }
