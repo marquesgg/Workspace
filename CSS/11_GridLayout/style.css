@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    border: 1 px solid black;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    /* column-gap: 10px ;
+       row-gap: 10px;  */
+    grid-gap: 15px 10px;
+    border: 4px solid blueviolet; 
+    /* justify-items: stretch;start; end */
+    align-items: flex-start;
+    /* grid-template-areas:"pipoca pipoca pipoca pipoca" "pipoca2 pipoca2 pipoca2. pipoca3" "pipoca4 pipoca4 pipoca4; */
+    
+}
+
+.item-1{
+    /* grid-area: pipoca; */
+    border: 4px solid black;
+}
+.item-2{
+    /* grid-area: pipoca2; */
+    border: 4px solid red;
+}
+.item-3{
+      /* grid-area: pipoca3; */
+      border: 4px solid blue;
+}
+.item-4{
+    /* grid-area: pipoca4; */
+    border: 4px solid yellow;
+}
+.item-5{
+    /* grid-area: pipoca5; */
+    border: 4px solid green;
+}
