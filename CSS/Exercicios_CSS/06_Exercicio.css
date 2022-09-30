@@ -19,7 +19,7 @@ body {
 }
 
 #pipoca {
-    background-image: url('lightyear.jpeg');
+    background-image: url('./img/lightyear.jpeg');
     background-size: cover;
     background-position: center;
     height: 89.8vh;
